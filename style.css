@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#test {
+  color: gray;
+}
+
+div.instrument{
+	float:left;
+	margin: 10px;
+	margin-top: 0px;
+	margin-left: 5px;
+}
+
+div.role{
+	clear: left;
+}
+
+ul {
+  list-style:none;
+  padding: 0px;
+  margin: 0px; 
+}
+
+p.instrument{
+	margin: 5px 0px;
+}
+
+h2.role{
+	margin: 10px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+}
+
+h2{
+	margin-bottom: 0px;
+}

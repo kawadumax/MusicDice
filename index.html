@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Music Dice</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Music Dice</h1>
+  <h2>説明</h2>
+  <p>
+  物理的制約を超越したサイコロを投げることができるアプリです。<br>
+  出た値は好きに解釈してみてください。<br>
+  僕はダイスの個数をアクセントの数、ダイスの目をアクセントのタイミングに使おうと思ってます。
+  </p>
+  <form name='mainForm'>
+    <h2>使う楽器</h2>
+    <input type="checkbox" name="Hihat" checked="checked"><label>Hihat</label>
+    <input type="checkbox" name="Snare" ><label>Snare</label>
+    <input type="checkbox" name="Kick" ><label>Kick</label>
+    <input type="checkbox" name="Bass" ><label>Bass</label>
+    <input type="checkbox" name="Piano" ><label>Piano</label>
+    <input type="checkbox" name="Guitar" ><label>Guitar</label>     
+    <h2>ダイスの数</h2>
+    <select name='diceNum'>
+      <option value='1'>1</option>
+      <option value='2'>2</option>
+      <option value='3'>3</option>
+      <option value='4'>4</option>
+      <option value='5'>5</option>
+      <option value='6'>6</option>
+      <option value='7'>7</option>
+      <option value='8'>8</option>
+      <option value='9'>9</option>
+      <option value='10'>10</option>
+    </select>
+    <h2>ダイスの最大値</h2>
+    <select name='diceMax'>
+      <option value='1'>1</option>
+      <option value='2'>2</option>
+      <option value='3'>3</option>
+      <option value='4'>4</option>
+      <option value='5'>5</option>
+      <option value='6'>6</option>
+      <option value='7'>7</option>
+      <option value='8'>8</option>
+      <option value='9'>9</option>
+      <option value='10'>10</option>
+      <option value='11'>11</option>
+      <option value='12'>12</option>
+      <option value='13'>13</option>
+      <option value='14'>14</option>
+      <option value='15'>15</option>
+      <option value='16'>16</option>
+    </select>
+    <input type='button' name='_role' value='ダイスロール' onclick="role()">
+  </form>
+  <div id="result"></div>
+</body>
+</html>
